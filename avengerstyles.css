@@ -1,0 +1,120 @@
+body
+{
+  background-color: black;
+  margin: 0 auto;
+}
+.ave-button
+{
+  position: absolute;
+  top: 25px;
+left: 25px;
+  z-index: +1;
+}
+.b1
+{
+  border-radius: 20px 20px 20px 20px;
+  border: 3px solid darkred;
+background-color: darkgoldenrod;
+font-family: monospace;
+font-weight: bold;
+font-size: 2vw;
+}
+.b1:hover
+{
+  filter: brightness(2);
+  cursor: pointer;
+}
+h1
+{
+  position: relative;
+  color: white;
+  font-family: monospace;
+  left: 43%;
+  width: 50%;
+}
+.list
+{
+  position: relative;
+  color: white;
+  background-color: black;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.list a
+{
+  position: relative;
+  margin-left: auto;
+  margin-right:auto;
+  width: 100%;
+    padding: 2%;
+    font-family: monospace;
+    font-size: 2vw;
+    color: white;
+    text-decoration: none;
+    left: 29%;
+}
+.list a:hover
+{
+  background-color: gray;
+}
+.head-logo
+{
+  position: relative;
+  top: 10px;
+  width: 15%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.armor img{
+  position: relative;
+  bottom: -150px;
+  max-width: 100%;
+}
+.info
+{
+  font-size: 150%;
+  display: block;
+  position: relative;
+ font-family: monospace;
+ top: -450px;
+ text-align: center;
+}
+.info > h3
+{
+
+  color: white;
+}
+.info > p
+{
+  color: white;
+}
+
+.bottom-container a{
+  padding-left: 2%;
+  padding-right: 2%;
+  color: white;
+  position: relative;
+  bottom: 100px;
+  text-align: center;
+  left: 25%;
+  font-family: monospace;
+  text-decoration: none;
+  font-size: 2vw;
+  padding: 2%;
+}
+.bottom-container a:hover
+{
+  background-color: rgb(25 , 25, 25, 75%);
+  filter:invert();
+}
+.copyright-msg {
+display: block;
+font-size: 100%;
+position: absolute;
+top: 1550px;
+left: 600px;
+  color: #EAF6F6;
+  padding-top: 45px;
+}
